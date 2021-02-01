@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>尚学堂-测试文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="bjsxt测试文档">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: '',
+      coverpage: true,
+      autoHeader: true,
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 4,
+      auto2top: true,
+      mergeNavbar: true,
+      ext: '.md',
+      
+      search:'auto',
+      search: {
+        placeholder: {
+          '/': '搜索 (Search)',
+          '/zh-cn/': '搜索 (Search)',
+          '/en-us/': 'Type to search'
+        },
+        noData: {
+          '/': '找不到结果 (Not Found)',
+          '/zh-cn/': '找不到结果 (Not Found)',
+          '/en-us/': 'No Results'
+        }
+      },
+      plugins: [
+        function (hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="#">5天入门Python到AI-使用教程</a> &copy;2020 - 2021.</span>',
+            '<span>编写者 <a href="#" target="_blank">北京尚学堂</a>.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+        }
+      ],
+      copyCode: {
+        buttonText: {
+          '/': '点击复制 (Click to Copy)'
+        },
+        errorText: {
+          '/': '错误 (Error)'
+        },
+        successText: {
+          '/': '复制 (Copy)'
+        }
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//pyecharts.org/static/docsify-copy-code.min.js"></script>
+  <script src="//pyecharts.org/static/search.js"></script>
+  <script src="//pyecharts.org/static/prism-python.min.js"></script>
+  <!-- <script src="//pyecharts.org/static/docsify.min.js"></script>
+  <script src="//pyecharts.org/static/zoom-image.js"></script> -->
+  <!-- <div id="app">努力加载中...</div> -->
+
+</body>
+</html>
