@@ -36,6 +36,9 @@
 ![](https://imgbjsxt.oss-cn-shanghai.aliyuncs.com/uploadfile/2016/1008/20161008113022746.jpg)
 ![](https://imgbjsxt.oss-cn-shanghai.aliyuncs.com/uploadfile/2016/1008/20161008113139272.jpg)
 ![](https://imgbjsxt.oss-cn-shanghai.aliyuncs.com/uploadfile/2016/1008/20161008113157917.jpg)
-## 联系方式 <微信>
-![联系方式](./img/咨询1.jpg)
-![](./img/咨询2.jpg)
+## 联系方式
+### 微信
+![联系方式](./img/a1.jpg)
+![](./img/a2.jpg)
+### QQ
+<img src="./img/q1.jpg" width="30%" height="30%" />
